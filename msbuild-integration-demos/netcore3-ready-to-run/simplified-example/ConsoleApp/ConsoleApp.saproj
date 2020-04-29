@@ -1,0 +1,41 @@
+<SmartAssemblyProject ProjectId="{8f859a4f-0707-44c2-a692-f203b5a1c312}" Version="2.0">
+    <MainAssemblyFileName>.\bin\Release\netcoreapp3.1\win-x64\ConsoleApp.dll</MainAssemblyFileName>
+    <Configuration Name="Release">
+        <Options>
+            <ExceptionReporting Template="res:{SmartExceptions}.NoUI_NetStandard.dll" />
+            <FeatureUsageReporting Template="res:SmartUsageWithoutUI_NetStandard.dll" />
+            <StringsEncoding Compress="1" Encode="1" UseCache="1" UseImprovedEncoding="1" />
+            <StrongNameSigning />
+            <Obfuscation ChangeMethodParent="1" FieldsNameMangling="3" NameMangling="1" />
+            <OtherProtections SuppressIldasm="0" />
+            <OtherOptimizations SealClasses="1" />
+            <Debugging />
+        </Options>
+        <ApplicationName />
+        <Assemblies>
+            <Assembly AssemblyName="System.Buffers, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+                <Merging />
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="System.Memory, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+                <Merging />
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="ConsoleApp, Culture=neutral, PublicKeyToken=null">
+                <Merging>
+                    <ResourcesCompression />
+                    <MemberRefsProxy Proxy="1" />
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion />
+                    </Obfuscation>
+                    <ControlFlow Obfuscate="1" ObfuscationLevel="4" />
+                </Merging>
+                <Embedding />
+            </Assembly>
+        </Assemblies>
+        <Destination DestinationFileName=".\obj\Release\netcoreapp3.1\win-x64\ConsoleApp.dll" />
+    </Configuration>
+</SmartAssemblyProject>

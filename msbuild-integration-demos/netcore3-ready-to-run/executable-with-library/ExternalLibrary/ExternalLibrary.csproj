@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <SmartAssemblyProjectFile>$(MSBuildProjectDirectory)\..\$(AssemblyName).saproj</SmartAssemblyProjectFile>
+    <SmartAssemblyOverwriteAssembly>true</SmartAssemblyOverwriteAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RedGate.SmartAssembly.MSBuild" Version="7.*">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
