@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PublishReadyToRun>true</PublishReadyToRun>
+    <SmartAssemblyProjectFile>$(MSBuildProjectDirectory)\..\$(AssemblyName).saproj</SmartAssemblyProjectFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RedGate.SmartAssembly.MSBuild" Version="7.*">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExternalLibrary\ExternalLibrary.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,94 @@
+<SmartAssemblyProject ProjectId="{a9a04c5f-fef7-436e-8872-12f2c0dcea3d}" Version="2.0">
+    <MainAssemblyFileName>.\ConsoleApp\bin\Release\netcoreapp3.1\win-x64\ConsoleApp.dll</MainAssemblyFileName>
+    <Configuration Name="Release">
+        <Options>
+            <ExceptionReporting Template="res:{SmartExceptions}.NoUI_NetStandard.dll" />
+            <FeatureUsageReporting Template="res:SmartUsageWithoutUI_NetStandard.dll" />
+            <StringsEncoding Compress="1" Encode="1" UseCache="1" UseImprovedEncoding="1" />
+            <StrongNameSigning />
+            <Obfuscation ChangeMethodParent="1" FieldsNameMangling="3" NameMangling="3" />
+            <OtherProtections />
+            <OtherOptimizations SealClasses="1" />
+            <Debugging />
+        </Options>
+        <ApplicationName />
+        <Assemblies>
+            <Assembly AssemblyName="ExternalLibrary, Culture=neutral, PublicKeyToken=null">
+                <Merging Merge="0">
+                    <Pruning />
+                    <Obfuscation />
+                    <ControlFlow />
+                    <MemberRefsProxy />
+                </Merging>
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="System.Buffers, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+                <Merging />
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="System.Memory, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+                <Merging />
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="netstandard, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+                <Merging />
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="System.Net.HttpListener, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+                <Merging />
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="System.Net.ServicePoint, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+                <Merging />
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="System.Net.WebClient, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+                <Merging />
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="System.Net.WebProxy, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+                <Merging />
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="System.Net.Mail, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+                <Merging />
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="System.Transactions.Local, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+                <Merging />
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="System.Web.HttpUtility, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+                <Merging />
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="System.Diagnostics.DiagnosticSource, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+                <Merging />
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="System.Private.Xml, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+                <Merging />
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="System.Private.Xml.Linq, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+                <Merging />
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="ConsoleApp, Culture=neutral, PublicKeyToken=null">
+                <Merging>
+                    <ResourcesCompression />
+                    <MemberRefsProxy Proxy="1" />
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion />
+                    </Obfuscation>
+                    <ControlFlow Obfuscate="1" ObfuscationLevel="4" />
+                </Merging>
+                <Embedding />
+            </Assembly>
+        </Assemblies>
+        <Destination DestinationFileName=".\ConsoleApp\obj\Release\netcoreapp3.1\win-x64\ConsoleApp.dll" />
+    </Configuration>
+</SmartAssemblyProject>
