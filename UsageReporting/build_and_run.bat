@@ -1,0 +1,13 @@
+REM Building test application and sample error reporting templates...
+dotnet build .\UsageReporting.sln -c Release
+
+REM Running SmartAssembly to add error reporting to test application...
+"%PROGRAMFILES%\Red Gate\SmartAssembly 8\SmartAssembly.com" /build .\ConsoleAppWithFeatureUsageReporting\ConsoleAppWithFeatureUsageReporting_net472_sample01.saproj
+
+REM Running original assembly...
+.\ConsoleAppWithFeatureUsageReporting\bin\Release\net472\ConsoleAppWithFeatureUsageReporting.exe
+
+REM Running assembly built with SmartAssembly error reporting...
+.\ConsoleAppWithFeatureUsageReporting\bin\protected\ConsoleAppWithFeatureUsageReporting.exe
+
+pause

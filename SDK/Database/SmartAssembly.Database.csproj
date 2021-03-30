@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworks>net40</TargetFrameworks>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>latest</LangVersion>
+
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <RootNamespace>SmartAssembly.DatabaseSample</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RedGate.SmartAssembly.SDK" Version="*-*" />
+  </ItemGroup>
+
+</Project>

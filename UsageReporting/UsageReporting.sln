@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample 01 - Standard Template", "Sample 01 - Standard Template\Sample 01 - Standard Template.csproj", "{63A9AD94-D6F2-45FB-9146-D0C0BDCDE212}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleApplication", "SampleApplication", "{AA2F84BA-657C-4646-97BE-55A3F1860778}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleTemplates", "SampleTemplates", "{59FE5C35-6CB7-4B72-9A27-0AAF32ABF015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample 02 - Without UI", "Sample 02 - Without UI\Sample 02 - Without UI.csproj", "{AC3556B9-FEC6-4296-BCEC-B79636C2753A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample 02 - Without UI (.NET Standard)", "Sample 02 - Without UI (.NET Standard)\Sample 02 - Without UI (.NET Standard).csproj", "{82E7876C-5630-44BB-95F4-2BED89A514E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppWithFeatureUsageReporting", "ConsoleAppWithFeatureUsageReporting\ConsoleAppWithFeatureUsageReporting.csproj", "{D5E10357-1E68-41C7-8654-14102DC882BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63A9AD94-D6F2-45FB-9146-D0C0BDCDE212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A9AD94-D6F2-45FB-9146-D0C0BDCDE212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A9AD94-D6F2-45FB-9146-D0C0BDCDE212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A9AD94-D6F2-45FB-9146-D0C0BDCDE212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3556B9-FEC6-4296-BCEC-B79636C2753A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3556B9-FEC6-4296-BCEC-B79636C2753A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3556B9-FEC6-4296-BCEC-B79636C2753A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3556B9-FEC6-4296-BCEC-B79636C2753A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E7876C-5630-44BB-95F4-2BED89A514E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E7876C-5630-44BB-95F4-2BED89A514E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E7876C-5630-44BB-95F4-2BED89A514E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E7876C-5630-44BB-95F4-2BED89A514E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E10357-1E68-41C7-8654-14102DC882BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E10357-1E68-41C7-8654-14102DC882BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E10357-1E68-41C7-8654-14102DC882BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E10357-1E68-41C7-8654-14102DC882BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63A9AD94-D6F2-45FB-9146-D0C0BDCDE212} = {59FE5C35-6CB7-4B72-9A27-0AAF32ABF015}
+		{AC3556B9-FEC6-4296-BCEC-B79636C2753A} = {59FE5C35-6CB7-4B72-9A27-0AAF32ABF015}
+		{82E7876C-5630-44BB-95F4-2BED89A514E3} = {59FE5C35-6CB7-4B72-9A27-0AAF32ABF015}
+		{D5E10357-1E68-41C7-8654-14102DC882BB} = {AA2F84BA-657C-4646-97BE-55A3F1860778}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9296C151-005A-4F1C-9CA1-89978C78E879}
+	EndGlobalSection
+EndGlobal
