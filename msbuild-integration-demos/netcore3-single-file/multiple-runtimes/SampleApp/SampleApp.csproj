@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <Target Name="SetAssemblyPathsForSA" BeforeTargets="BuildWithSmartAssembly">
+    <PropertyGroup>
+      <SmartAssemblyInput>$(TargetPath)</SmartAssemblyInput>
+      <SmartAssemblyOutput>$(IntermediateOutputPath)$(TargetName)$(TargetExt)</SmartAssemblyOutput>
+    </PropertyGroup>
+  </Target>
+
+  <ItemGroup>
+    <PackageReference Include="RedGate.SmartAssembly.MSBuild" Version="*-*">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
