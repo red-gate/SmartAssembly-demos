@@ -4,7 +4,7 @@
     <CompanyName>Sample Company Name</CompanyName>
     <Configuration Name="Release">
         <Options>
-            <ExceptionReporting AlwaysContinueOnError="1" CustomTemplate="..\Sample 02 - Standard Template\bin\Release\SmartExceptionsWithUI.dll" ReportExceptions="1" Template="res:{SmartExceptions}.1033.dll" UseCustomTemplate="1" />
+            <ExceptionReporting AlwaysContinueOnError="1" CustomTemplate="..\Sample 02 - Standard Template\bin\Release\net4.0\Sample 02 - Standard Template.dll" ReportExceptions="1" Template="res:{SmartExceptions}.1033.dll" UseCustomTemplate="1" />
             <FeatureUsageReporting Template="res:SmartUsageWithUIConsentFirstRun1033.dll" />
             <StringsEncoding />
             <StrongNameSigning />
