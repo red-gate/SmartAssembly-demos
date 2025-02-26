@@ -1,15 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
-    <TargetFramework>net4.0</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <OutputType>Library</OutputType>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="RedGate.SmartAssembly.SmartExceptionsCore">
-      <Version>*-*</Version>
-    </PackageReference>
+    <PackageReference Include="RedGate.SmartAssembly.SmartExceptionsCore" Version="8.3.4.6312" />
   </ItemGroup>
 
 </Project>
