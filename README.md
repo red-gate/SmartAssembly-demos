@@ -5,6 +5,8 @@ Sample applications for use with SmartAssembly.
 1. MSBuild integration
     - [ReadyToRun images (.NET Core 3)](./msbuild-integration-demos/netcore3-ready-to-run)
     - [Single-file executables (.NET Core 3)](./msbuild-integration-demos/netcore3-single-file)
+    - [ReadyToRun images (.NET 10)](./msbuild-integration-demos/net10-ready-to-run)
+    - [Single-file executables (.NET 10)](./msbuild-integration-demos/net10-single-file)
 2. [Error reporting with custom templates](./ErrorReporting)
 3. [Feature usage reporting with custom templates](./UsageReporting)
 4. [Accessing SmartAssembly database and utilities with the SDK](./SDK)
