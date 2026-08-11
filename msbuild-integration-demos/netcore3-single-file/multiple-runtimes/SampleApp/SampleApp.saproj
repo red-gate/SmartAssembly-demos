@@ -1,0 +1,34 @@
+<SmartAssemblyProject ProjectId="{69c1f16e-fcbd-46dd-8c23-436eae0d1687}" Version="2.0">
+    <MainAssemblyFileName>.\bin\Release\netcoreapp3.1\win-x64\SampleApp.dll</MainAssemblyFileName>
+    <Configuration Name="Release">
+        <Options>
+            <ExceptionReporting Template="res:{SmartExceptions}.NoUI.dll" />
+            <FeatureUsageReporting Template="res:SmartUsageWithoutUI.dll" />
+            <StringsEncoding />
+            <StrongNameSigning Sign="0" />
+            <Obfuscation ChangeMethodParent="1" CompilerGeneratedSerializable="0" FieldsNameMangling="3" NameMangling="1" />
+            <OtherProtections />
+            <OtherOptimizations />
+            <Debugging />
+            <CopyDependencies />
+        </Options>
+        <ApplicationName />
+        <Assemblies>
+            <Assembly AssemblyName="SampleApp, Culture=neutral, PublicKeyToken=null">
+                <Merging>
+                    <ResourcesCompression />
+                    <MemberRefsProxy />
+                    <Pruning>
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion />
+                    </Obfuscation>
+                    <ControlFlow />
+                </Merging>
+                <Embedding />
+            </Assembly>
+        </Assemblies>
+        <Destination DestinationFileName=".\bin\Release\netcoreapp3.1\win-x64\sa\SampleApp.dll" />
+    </Configuration>
+</SmartAssemblyProject>
