@@ -19,4 +19,4 @@ Execute the `publish-and-run.bat` file from either example to build, protect, pu
 
 For guidance on protecting ReadyToRun assemblies with SmartAssembly as part of your build pipeline, see the SmartAssembly documentation:
 
-https://documentation.red-gate.com/sa7/building-your-assembly/using-smartassembly-with-readytorun-images-net-core-3
+https://documentation.red-gate.com/sa/building-your-assembly/using-smartassembly-with-readytorun-images-net

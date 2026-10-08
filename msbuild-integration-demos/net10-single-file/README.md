@@ -18,7 +18,7 @@ Execute the `publish-and-run.bat` file from the example above to build, protect,
 
 Follow our documentation to see how to protect your single-file application by integrating SmartAssembly into your build process.
 
-https://documentation.red-gate.com/sa7/building-your-assembly/using-smartassembly-with-single-file-executables-net-core-3
+https://documentation.red-gate.com/sa/building-your-assembly/using-smartassembly-with-single-file-applications-net
 
 For more information about single-file deployment in .NET, see:
 
